@@ -26,9 +26,9 @@ class _TestState extends State<Test> {
                   )),
               body: TabBarView(
                 children: <Widget>[
-                  Content("Content 1"),
-                  Content("Content 2"),
-                  Content("Content 3"),
+                  ContentWidget("Content 1"),
+                  ContentWidget("Content 2"),
+                  ContentWidget("Content 3"),
                 ],
               ))),
     );

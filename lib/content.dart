@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class Content extends StatefulWidget {
+class ContentWidget extends StatefulWidget {
   final String text;
-  Content(this.text);
+  ContentWidget(this.text);
   @override
-  ContentState createState() => ContentState(text);
+  ContentWidgetState createState() => ContentWidgetState(text);
 }
 
-class ContentState extends State<Content> {
+class ContentWidgetState extends State<ContentWidget> {
   final String text;
 
-  ContentState(this.text);
+  ContentWidgetState(this.text);
 
   @override
   Widget build(BuildContext context) {
